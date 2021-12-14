@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Travelly • Travel Tips & Guides.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Travelly</h1>
+      <div class="banner">Travel Tips & Guides.</div>
+    </header>
+    <div id="open-menu" onclick="openMenu();">Menu</div>
+    <div id="close-menu" onclick="closeMenu();">&times;</div>
+    <nav id="nav" class="nav" align="center">
+      <a href="index.html">HOME</a>
+      <a href="top-places.html">TOP PLACES</a>
+      <a class="active" href="best-visits.html">BEST VISITS</a>
+      <a href="travel-references.html">TRAVEL REFERENCES</a>
+      <a href="about-us.html">ABOUT US</a>
+    </nav>
+
+    <div class="main_content">
+      <div class="article">
+        <div class="image-container">
+          <img src="images/ti-21.jpg" alt="Sample Image"/>
+        </div>
+	<h2>LET'S GO TRAVEL!!!</h2>
+	<br><br><br>
+
+	<h3>Best Visits</h3>
+        <div class="img-container">
+          <div class="img-containers">
+            <img src="images/ti-10.jpeg">
+	    <p class="title">Islas de Gigantes</p>
+            <p>Is an island chain within the larger Western Visayas archipelago in the Visayan Sea. It is part of the municipality of Carles, Iloilo, Philippines, and the northernmost part of Iloilo province.
+</p>
+          </div>
+          <div class="img-containers">
+            <img src="images/ti-11.jpeg">
+	    <p class="title">Mount Fuji, Japan</p>
+            <p>Is one of the most famous mountains in the world. Mount Fuji is a composite cone, or stratovolcano. ... The mountain contributes to Japan's physical, cultural, and spiritual geography. Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet).</p>
+          </div>
+          <div class="img-containers">
+            <img src="images/ti-12.jpeg">
+	    <p class="title">Nyhavn harbor</p>
+            <p> Originally it was a commercial port where ships from all over the world would dock, and it was packed with sailors visiting its pubs, alehouses and ladies of pleasure. Today the beautiful old houses have been renovated and restaurants dominate the old port.</p>
+          </div>
+	  <div class="img-containers">
+            <img src="images/ti-4.jpeg">
+	    <p class="title">The London Eye</p>
+            <p>or the Millennium Wheel, is a cantilevered observation wheel on the South Bank of the River Thames in London. ... Supported by an A-frame on one side only, unlike the taller Nanchang and Singapore wheels, the Eye is described by its operators as "the world's tallest cantilevered observation wheel".
+</p>
+          </div>
+	  <div class="img-containers">
+            <img src="images/ti-14.jpeg">
+	    <p class="title">Dubai Marina</p>
+            <p>Is one of the most sought-after neighbourhoods in Dubai. This impressive community boasts luxury skyscrapers, a range of dining and entertainment options and best of all, it offers urban waterfront living to its residents.</p>
+          </div>
+	  <div class="img-containers">
+            <img src="images/ti-5.jpeg">
+	    <p class="title">The Great Wall of China</p>
+            <p>Is an ancient wall in China. The wall is made of cement, rocks, bricks, and dirt. It was finished in 1878 and it was meant to protect the north of the empire of China from enemy attacks. It is the longest structure humans have ever built.</p>
+          </div>
+        </div>
+
+	<h3>TRAVEL TIPS:</h3>
+
+    <p>When planning for a trip locally or abroad, utilising these online travel services is more beneficial than using the local travel agent in your neighborhood because:</p>
+
+    <ul>
+      <li>It saves time and money.</li>
+      <li>The online guys provide expert insights and a safety net to your trip.</li>
+      <li>It's easy to check out what people say about them.</li>
+      <li>They can make your multi-destination holiday seamless.</li>
+    </ul>
+
+
+        <p class="contact"><a href="#">Contact an online travel services now</a> and let their travel experts make your dream come true. </p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h3>Travelly &copy; 2021</h3>
+    </footer>
+
+    <script>
+      function openMenu() {
+          var nav = document.getElementById('nav');
+          var closeMenu = document.getElementById('close-menu');
+          var openMenu = document.getElementById('open-menu');
+          openMenu.style.display = 'none';
+          closeMenu.style.display = 'block';
+          nav.style.display = 'block';
+          nav.style.display = 'flex';
+      }
+
+      function closeMenu() {
+          var nav = document.getElementById('nav');
+          var closeMenu = document.getElementById('close-menu');
+          var openMenu = document.getElementById('open-menu');
+          openMenu.style.display = 'block';
+          closeMenu.style.display = 'none';
+          nav.style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
+
+    

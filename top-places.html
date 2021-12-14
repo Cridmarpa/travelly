@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Travelly • Travel Tips & Guides.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Travelly</h1>
+      <div class="banner">Travel Tips & Guides.</div>
+    </header>
+    <div id="open-menu" onclick="openMenu();">Menu</div>
+    <div id="close-menu" onclick="closeMenu();">&times;</div>
+    <nav id="nav" class="nav" align="center">
+      <a href="index.html">HOME</a>
+      <a href="top-places.html" class="active">TOP PLACES</a>
+      <a href="best-visits.html">BEST VISITS</a>
+      <a href="travel-references.html">TRAVEL REFERENCES</a>
+      <a href="about-us.html">ABOUT US</a>
+    </nav>
+
+    <div class="main_content">
+      <div class="article">
+        <div class="image-container">
+          <img src="images/ti-21.jpg" alt="Sample Image"/>
+        </div>
+	<h2>LET'S GO TRAVEL!!!</h2>
+	<br><br><br>
+
+	<h3>Top Places</h3>
+        <div class="img-container">
+          <div class="img-containers">
+            <img src="images/ti-2.jpeg">
+	    <p class="title">Maldives</p>
+            <p>In full Republic of Maldives, also called Maldive Islands, independent island country in the north-central Indian Ocean.</p>
+          </div>
+          <div class="img-containers">
+            <img src="images/ti-12.jpeg">
+	    <p class="title">Nyhavn harbor</p>
+            <p>Originally it was a commercial port where ships from all over the world would dock, and it was packed with sailors visiting its pubs, alehouses and ladies of pleasure. Today the beautiful old houses have been renovated and restaurants dominate the old port.</p>
+          </div>
+          <div class="img-containers">
+            <img src="images/ti-3.jpeg">
+	    <p class="title">London Bridge</p>
+            <p>Is a bridge in London, England over the River Thames, between the City of London and Southwark. It is between Cannon Street Railway Bridge and Tower Bridge; it also forms the western end of the Pool of London. London's original bridge made this one of the most famous bridge emplacements in the world.</p>
+          </div>
+	  <div class="img-containers">
+            <img src="images/ti-6.jpeg">
+	    <p class="title">Bà Nà Hill Station</p>
+            <p>Is a hill station and resort located in the Trường Sơn Mountains west of the city of Da Nang, in central Vietnam. ... Being located above 1500 metres above sea level, it has a view of the East Sea and the surrounding mountains.</p>
+          </div>
+	  <div class="img-containers">
+            <img src="images/ti-17.jpeg">
+	    <p class="title">Hamad Port</p>
+            <p>Is Qatar's main seaport, located south of Doha in the Umm Al-Houl area. Construction of the port began in 2010; it became operational in December 2016. It was officially opened in September 2017, and is expected to become fully operational by 2020</p>
+          </div>
+	  <div class="img-containers">
+            <img src="images/home-page.jpg">
+	    <p class="title">Cadapdapan Rice Terraces</p>
+            <p>Are the answer to Bali’s popular Tegallalang Rice fields. These rice terraces have been carved out of the mountains and are truly spectacular to wander through or view from an aerial perspective.</p>
+          </div>
+        </div>
+
+	<h3>TRAVEL TIPS:</h3>
+
+    <p>When planning for a trip locally or abroad, utilising these online travel services is more beneficial than using the local travel agent in your neighborhood because:</p>
+
+    <ul>
+      <li>It saves time and money.</li>
+      <li>The online guys provide expert insights and a safety net to your trip.</li>
+      <li>It's easy to check out what people say about them.</li>
+      <li>They can make your multi-destination holiday seamless.</li>
+    </ul>
+
+
+        <p class="contact"><a href="#">Contact an online travel services now</a> and let their travel experts make your dream come true. </p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h3>Travelly &copy; 2021</h3>
+    </footer>
+
+    <script>
+      function openMenu() {
+          var nav = document.getElementById('nav');
+          var closeMenu = document.getElementById('close-menu');
+          var openMenu = document.getElementById('open-menu');
+          openMenu.style.display = 'none';
+          closeMenu.style.display = 'block';
+          nav.style.display = 'block';
+          nav.style.display = 'flex';
+      }
+
+      function closeMenu() {
+          var nav = document.getElementById('nav');
+          var closeMenu = document.getElementById('close-menu');
+          var openMenu = document.getElementById('open-menu');
+          openMenu.style.display = 'block';
+          closeMenu.style.display = 'none';
+          nav.style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
+
+    

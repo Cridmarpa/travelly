@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Travelly • Travel Tips & Guides.</title>
+    <link rel="stylesheet" href="style.css">    
+  </head>
+  <body>
+    <header class="header">
+      <h1>Travelly</h1>
+      <div class="banner">Travel Tips & Guides.</div>
+    </header>
+    <div id="open-menu" onclick="openMenu();">Menu</div>
+    <div id="close-menu" onclick="closeMenu();">&times;</div>
+    <nav id="nav" class="nav" align="center">
+      <a class="active" href="index.html">HOME</a>
+      <a href="top-places.html">TOP PLACES</a>
+      <a href="best-visits.html">BEST VISITS</a>
+      <a href="travel-references.html">TRAVEL REFERENCES</a>
+      <a href="about-us.html">ABOUT US</a>
+    </nav>
+
+    <div class="main_content">
+      <div class="article">
+	<div class="image-container">
+	  <img src="/images/ti-21.jpg" alt="Sample Image"/>
+	</div>
+	<h2>LET'S GO TRAVEL!!!</h2>
+	<br><br><br>
+	<p class="intro">I don't know if you've noticed or not, but the age of using online travel services is suddenly here when it comes to coordinating one's travel plans. It is interesting to see how travelers' behavior has changed: instead of visiting their trusted local agent, they are now more inclined to book a tour right on the Internet. Why? I guess everything happens for a reason. If you are planning a trip locally or abroad, check some of this best places in the world that are worth to consider!</p>
+
+	<br>
+
+	<h3>Top Places</h3>
+	<div class="img-container">
+	  <div class="img-containers">
+	    <img src="images/ti-2.jpeg">
+	    <p class="title">Maldives</p>
+	    <p>In full Republic of Maldives, also called Maldive Islands, independent island country in the north-central Indian Ocean.
+</p>
+	  </div>
+	  <div class="img-containers">
+            <img src="images/ti-3.jpeg">
+	    <p class="title">London Bridge</p>
+            <p>Is a bridge in London, England over the River Thames, between the City of London and Southwark. It is between Cannon Street Railway Bridge and Tower Bridge; it also forms the western end of the Pool of London. London's original bridge made this one of the most famous bridge emplacements in the world.</p>
+          </div>
+	  <div class="img-containers">
+            <img src="images/ti-4.jpeg">
+	    <p class="title">The London Eye</p>
+            <p>The Millennium Wheel, is a cantilevered observation wheel on the South Bank of the River Thames in London. ... Supported by an A-frame on one side only, unlike the taller Nanchang and Singapore wheels, the Eye is described by its operators as "the world's tallest cantilevered observation wheel".</p>
+          </div>
+	</div>
+	
+	<h3>Best Visits</h3>
+	<div class="img-container">
+          <div class="img-containers">
+            <img src="images/ti-5.jpeg">
+	    <p class="title">The Great Wall of China</p>
+            <p>Is an ancient wall in China. The wall is made of cement, rocks, bricks, and dirt. It was finished in 1878 and it was meant to protect the north of the empire of China from enemy attacks. It is the longest structure humans have ever built.</p>
+          </div>
+          <div class="img-containers">
+            <img src="images/ti-10.jpeg">
+	    <p class="title">Islas de Gigantes</p>
+            <p>Is an island chain within the larger Western Visayas archipelago in the Visayan Sea. It is part of the municipality of Carles, Iloilo, Philippines, and the northernmost part of Iloilo province.</p>
+          </div>
+          <div class="img-containers">
+            <img src="images/ti-6.jpeg">
+	    <p class="title">Bà Nà Hill Station</p>
+            <p>Is a hill station and resort located in the Trường Sơn Mountains west of the city of Da Nang, in central Vietnam. ... Being located above 1500 metres above sea level, it has a view of the East Sea and the surrounding mountains.</p>
+          </div>
+        </div>
+	<h3>Travel References</h3>
+	<div class="img-container">
+          <div class="img-containers">
+            <img src="images/ti-7.jpeg">
+	    <p class="title">Vernazza</p>
+            <p>Is the fourth town heading north, has no car traffic, and remains one of the truest "fishing villages" on the Italian Riviera. It is the only natural port of Cinque Terre and is famous for its elegant houses. Vernazza's name is derived from the Latin adjective verna, meaning "native".
+</p>
+          </div>
+          <div class="img-containers">
+            <img src="images/ti-8.jpeg">
+	    <p class="title">Positano</p>
+            <p>Is the most popular town on the Amalfi Coast in Italy, known all over the world for the moda positano, the vibrant nightlife and the characteristic shops. ... The urban structure of Positano is made of terraces, of small narrow and winding streets and of homes climbing the hillside.</p>
+          </div>
+          <div class="img-containers">
+            <img src="images/ti-9.jpeg">
+	    <p class="title">Mayon Volcano</p>
+            <p>Active volcano, southeastern Luzon, Philippines, dominating the city of Legaspi. Called the world's most perfect volcanic cone because of the symmetry of its shape, it has a base 80 miles (130 km) in circumference and rises to 8,077 feet (2,462 metres) from the shores of Albay Gulf</p>
+          </div>
+        </div>
+
+    <h3>TRAVEL TIPS:</h3>
+
+    <p>When planning for a trip locally or abroad, utilising these online travel services is more beneficial than using the local travel agent in your neighborhood because:</p>
+
+    <ul>
+      <li>It saves time and money.</li>
+      <li>The online guys provide expert insights and a safety net to your trip.</li>
+      <li>It's easy to check out what people say about them.</li>
+      <li>They can make your multi-destination holiday seamless.</li>
+    </ul>
+      
+      
+
+	<p class="contact"><a href="#">Contact an online travel services now</a> and let their travel experts make your dream come true. </p>
+ 
+      </div>
+    </div>
+    
+
+    <footer class="footer">
+      <h3>Travelly &copy; 2021</h3>
+    </footer>
+
+    <script>
+      function openMenu() {
+	  var nav = document.getElementById('nav');
+	  var closeMenu = document.getElementById('close-menu');
+	  var openMenu = document.getElementById('open-menu');
+	  openMenu.style.display = 'none';
+	  closeMenu.style.display = 'block';
+	  nav.style.display = 'block';
+	  nav.style.display = 'flex';
+      }
+
+      function closeMenu() {
+	  var nav = document.getElementById('nav');
+          var closeMenu = document.getElementById('close-menu');
+          var openMenu = document.getElementById('open-menu');
+          openMenu.style.display = 'block';
+          closeMenu.style.display = 'none';
+          nav.style.display = 'none';
+      }
+    </script>
+  </body>
+</html>

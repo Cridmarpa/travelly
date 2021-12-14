@@ -1,0 +1,189 @@
+/* Styling for Travel Ideas pages */
+.header {
+    background-color: #181818;
+    color: #202020;
+    height: 100px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+.header h1 {
+    padding: 25px 0 0 0;
+    color: white;
+    font-family: serif, sans-serif;
+}
+.header .banner {
+    color: #eee;
+}
+.main_content {
+    background-color: transparent;
+}
+nav {
+    display: none;
+    flex-direction: column;
+    /*background-color: #454545;*/
+    background-color: #181818;
+        /*text-algin: center;*/
+        padding: 15px;
+        cursor: default;
+        /*box-shadow: 0px 1px 0px lime;*/
+}
+.nav a {
+    flex: 1;
+    text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: white;
+}
+.nav a:hover{
+        color: cyan;
+}
+.active {
+    color: cyan;
+}
+.article {
+    border-top: 3px solid #555;
+    background-color: #131313;
+    font-family: sans-serif;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+.article p {
+    margin: 15px;
+    padding: 0 10px;
+    word-spacing: 1.5px;
+    line-height: 21px;
+}
+.article h2 {
+    text-align: center;
+    /*margin: 5px 0;*/
+    padding: 10px 0;
+    font-weight: 700;
+    margin-top: -110px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.article h3 {
+    padding: 10px 0;
+    margin-left: 20px;
+}
+.article .title {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.intro {
+    padding: 10px 0;
+    margin: 10px 0;
+}
+footer {
+    width: 100%;
+    margin-bottom: 0px;
+    /*margin-top: -10px;*/
+    background-color: #181818;
+    text-align: center;
+}
+.footer h3 {
+    padding: 10px 0;
+    color: green;
+    font-family: sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /*background-color: #323232;*/
+    background-color: #181818;
+}
+ul {
+    padding: 20px 20px 20px 40px;
+}
+.contact {
+    background-color: #181818;
+    margin: 10px 0;
+    padding: 30px;
+    color: #eee;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+.image-container {
+    text-align: center;
+    margin: 10px 15px 15px 15px;
+    height: 250px;
+    width: 90%;
+}
+img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+.img-container {
+    margin-bottom: 70px;
+}
+.img-containers {
+    width: 90%;
+    margin: 15px auto;
+}
+.img-containers img {
+    height: 250px;
+    width: 100%;
+}
+.img-containers p {
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+}
+#open-menu, #close-menu {
+    color: #eee;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+#close-menu {
+    font-size: 40px;
+    display: none;
+}
+@media only screen and (min-width: 601px) {
+    nav {
+        display: block;
+        display: flex;
+        flex-direction: row;
+    }
+    .nav .active {
+	color: cyan;
+    }
+    #open-menu, #close-menu {
+        display: none;;
+    }
+    .nav a {
+        display: block;
+    }
+    .image-container {
+        margin-bottom: 10px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .article {
+        padding: 10px 0;
+    }
+    .main_content {
+        padding: 0 20px;
+    }
+    .img-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Travelly • Travel Tips & Guides.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Travelly</h1>
+      <div class="banner">Travel Tips & Guides.</div>
+    </header>
+    <div id="open-menu" onclick="openMenu();">Menu</div>
+    <div id="close-menu" onclick="closeMenu();">&times;</div>
+    <nav id="nav" class="nav" align="center">
+      <a href="index.html">HOME</a>
+      <a href="top-places.html">TOP PLACES</a>
+      <a href="best-visits.html">BEST VISITS</a>
+      <a href="travel-references.html">TRAVEL REFERENCES</a>
+      <a class="active" href="about-us.html">ABOUT US</a>
+    </nav>
+
+    <div class="main_content">
+      <div class="article">
+        <div class="image-container">
+          <img src="images/ti-21.jpg" alt="Sample Image"/>
+        </div>
+	<h2>LET'S GO TRAVEL!!!</h2>
+	<br><br><br>
+
+	<h3>About Us</h3>
+	<p>Travelly is the largest independently owned travel agency headquartered in Philippines, and consistently ranked among the top 50 largest in the Asia.</p>
+	<p>"We are an employee-owned company with a passion for providing exemplary customer service, leveraging our expertise and technology to deliver innovative travel solutions in a gratifying work environment."</p>
+	<p>We are unique being an employee-owned travel agency, with a high bar for our integrity and dedication to customer service. Our strong company culture is anchored  by our mission and values.</p>
+	<p>Our award-winning company consistently ranks among the best agencies in the country (Travel Weekly, Business Travel Weekly). Our passion for our profession has resulted in being named multiple years as one of the "Best Places To Work".</p>
+	<p>Our management team is active on various travel advisory boards and committees for travel organizations like ASTA, travel magazines (Afar, Travel+Leisure), major hotel brands, and airlines. We are engaged with our industry and our opinions continue to be sought across the broad spectrum of our industry.</p>
+	<p>Travelly is a top member of the prestigious Signature Travel Network, a highly regarded worldwide partnership allowing us to provide our customers unmatched benefits and additional value when you travel. We are a Premium Member of ASTA (American Society of Travel Advisors), CLIA (Cruise Line International Association) and an affiliate of BCD Travel.</p>
+
+	<h3>TRAVEL TIPS:</h3>
+
+    <p>When planning for a trip locally or abroad, utilising these online travel services is more beneficial than using the local travel agent in your neighborhood because:</p>
+
+    <ul>
+      <li>It saves time and money.</li>
+      <li>The online guys provide expert insights and a safety net to your trip.</li>
+      <li>It's easy to check out what people say about them.</li>
+      <li>They can make your multi-destination holiday seamless.</li>
+    </ul>
+
+
+        <p class="contact"><a href="#">Contact an online travel services now</a> and let their travel experts make your dream come true. </p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h3>Travelly &copy; 2021</h3>
+    </footer>
+
+    <script>
+      function openMenu() {
+          var nav = document.getElementById('nav');
+          var closeMenu = document.getElementById('close-menu');
+          var openMenu = document.getElementById('open-menu');
+          openMenu.style.display = 'none';
+          closeMenu.style.display = 'block';
+          nav.style.display = 'block';
+          nav.style.display = 'flex';
+      }
+
+      function closeMenu() {
+          var nav = document.getElementById('nav');
+          var closeMenu = document.getElementById('close-menu');
+          var openMenu = document.getElementById('open-menu');
+          openMenu.style.display = 'block';
+          closeMenu.style.display = 'none';
+          nav.style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
+
+    
